@@ -2,8 +2,25 @@ let darkMode = document.querySelector(".darkMode")
 let search = document.querySelector("#search")
 let submit = document.querySelector("#submit")
 
-let select = document.querySelector("#select")
+let select = document.querySelector("#filter")
 let cards = document.querySelector("#cards")
+let africa = document.querySelector("#africa")
+let america = document.querySelector("#america")
+let europe = document.querySelector("#europe")
+let asia = document.querySelector("#asia")
+select.onchange = function() {
+
+    let filter = document.querySelectorAll("." + select.options[select.selectedIndex].text)
+    filter.forEach(element => {
+        element.classList.remove("unmatch")
+
+    });
+    let unmatch = document.querySelectorAll(".unmatch")
+    unmatch.forEach(element => {
+        element.style.display = "none"
+
+    });
+}
 
 submit.onclick = function() {
     if (search.value != "") {
