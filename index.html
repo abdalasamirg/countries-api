@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries-Api</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 h1">
+                    <h3>Where in the world!</h3>
+                </div>
+
+                <div class="col-lg-6 col-sm-12 darkMode">
+                    <img src="" alt="">
+                    <h4>Dark Mode</h4>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <section>
+        <div class="top">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col col-sm-12 search"><input type="search" id="search" placeholder="Search for a country"><input type="submit" id="submit">
+                    </div>
+
+                    <div class="col col-sm-12 filter"><select name="" value="'Filter By regon" id="filter">
+                        <option value="">Filter By regon</option>
+                        <option value="" class="option" id="africa">Africa</option>
+                        <option value="" class="option" id="america">America</option>
+                        <option value="" class="option" id="asia">Asia</option>
+                        <option value="" class="option" id="europe">Europe</option>
+                    </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row" id="cards">
+
+
+            </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+:root {
+    ---mainColor: rgb(43, 55, 67);
+}
+
+body {
+    background-color: rgb(33, 46, 55);
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: var(---mainColor);
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 5px 12px 10px rgba(0, 24, 44, 0.165);
+    margin-bottom: 45px;
+}
+
+.h1 {
+    width: fit-content;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.darkMode {
+    position: absolute;
+    left: 90%;
+    transform: translateX(-90%);
+    width: 200px;
+}
+
+.filter {
+    text-align: right;
+}
+
+.filter select {
+    margin: auto;
+}
+
+.filter select,
+.search input {
+    border-radius: 5px;
+    background-color: var(---mainColor);
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.filter select {
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+.option {
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+#search {
+    padding: 20px;
+    width: 350px;
+    height: 50px;
+}
+
+#submit {
+    margin-left: 20px;
+    opacity: 0.2;
+    height: 50px;
+}
+
+#submit:hover {
+    opacity: 1;
+}
+
+.search {
+    margin-bottom: 30px;
+}
+
+#button {
+    background-color: var(---mainColor);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    width: fit-content;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.top {
+    margin-bottom: 45px;
+}
+
+.cards {
+    text-align: center;
+}
+
+.card {
+    background-color: var(---mainColor);
+    margin: auto;
+    margin-bottom: 30px;
+    width: 250px;
+    height: 325px;
+    color: white;
+}
+
+.img {
+    border-radius: 5px;
+    width: 250px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.docs {
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+}
+
+.info {
+    opacity: 0.5;
+}
+
+.content2 {
+    outline: none;
+    border: none;
+}
+
+.docs2 {
+    text-align: left;
+    margin-left: 50px;
+    padding: 20px;
+}
