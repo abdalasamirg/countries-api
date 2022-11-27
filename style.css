@@ -107,6 +107,8 @@ header {
     width: 250px;
     height: 325px;
     color: white;
+        cursor: pointer;
+
 }
 
 .img {
